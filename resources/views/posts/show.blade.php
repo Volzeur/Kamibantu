@@ -31,7 +31,7 @@
 
         {{-- Loan details card --}}
         <div class="mx-6 mt-4 rounded-lg border border-border bg-muted/30 p-4">
-            <div class="grid grid-cols-2 sm:grid-cols-5 gap-4">
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
                 <div>
                     <p class="text-xs text-muted-foreground uppercase tracking-wider">Amount</p>
                     <p class="mt-1 text-lg font-bold">{{ $post->formatted_amount }}</p>
